@@ -1,0 +1,963 @@
+
+2014-08-26 15:10:46,943 - NEW 
+one only?!
+
+ UC32 bidOrder: new UC {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+
+2014-08-26 15:10:46,944 - NEW UC32   self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+ 
+
+2014-08-26 15:10:46,944 - clientThis   1738404304940813414  
+
+2014-08-26 15:10:46,958 - placeAskOrderThis: 
+
+ {'secretPhrase': 'dontWriteToLogFile', 'feeNQT': '100000000', 'asset': '6477891914279744979', 'broadcast': '', 'referencedTransactionFullHash': '', 'priceNQT': '100000', 'deadline': '180', 'quantityQNT': 113000, 'publicKey': ''}
+  
+
+2014-08-26 15:10:46,959 - startUC32: bidOrdersLiOther : []
+priceThis : 0
+thisSide : NXT
+clientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+uc32Logger : <logging.Logger object at 0x7ff4b4116be0>
+askOrderThisID : 000
+priceOther : 0
+UCtype : NFD_on_NXT
+XfersOther : []
+tokensOther : 0
+tradesOtherBOLi : []
+clientsOtherDi : {}
+tokensRedeemableThis : 0
+otherSide : NFD
+tokensRedeemedThis : 0
+clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+minConfsWanted : 1
+tokenThis : 6477891914279744979
+catchSmallVolBidOrder : False
+ucID : 2256483736430273273
+minVol_NFD : 10000
+sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>
+TXs : {'0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+feeOther : ['NXT']
+askOrderThis : {'askOrderId': '0'}
+bidOrderThisID : 2256483736430273273
+cancelSyntax : ['cancel', 'Cancel', 'CANCEL']
+tokensThis : 0
+bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>
+tokenOther : 7334941058708816895
+uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+
+minVol_NXT : 10
+accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>
+clientThisAccId : 1738404304940813414
+XfersThis : []
+askOrderOther : {'askOrderId': '0'}
+tokensRedeemableOther : 0
+tokensRedeemedOther : 0
+tradesOther : {}
+UC32_iniTimeOther : 8262645
+bidOrdersDiOther : {}
+UC32_iniTimeThis : 23764245
+tradesThis : {}
+accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>
+askOrderOtherID : 000
+bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+status : 1
+feeThis : ['NFD']
+ 
+ 
+
+2014-08-26 15:10:47,999 - uc32_askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}  
+
+2014-08-26 15:11:20,642 - trade_This:------------------------------
+  {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'} 
+ 
+
+2014-08-26 15:11:20,695 - UC32 askOrderThis   {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}   
+
+2014-08-26 15:11:20,695 - placeAskOrderOther:  {'secretPhrase': 'dontWriteToLogFile', 'feeNQT': '100000000', 'asset': '7334941058708816895', 'broadcast': '', 'referencedTransactionFullHash': '', 'priceNQT': '100000000000', 'deadline': '180', 'quantityQNT': 113, 'publicKey': ''} - AOid not yet known, will be logged when available from NRS: 
+
+2014-08-26 15:11:20,745 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '0'}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 000bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 65, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:11:20,844 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '0'}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 000bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54258, 'ecBlockId': '3017526123620748704', 'amountNQT': '0', 'blockTimestamp': 8256742, 'signature': 'e4e065b7ef6ca24164e1d0c03366ef6d2f1264f9fc9dc461bb2755c39bb4b306f26734179ec012f984f90bf25c2130833c0ad03f661fa3107380a650a4323b21', 'transaction': '6618336364130296627', 'timestamp': 8256725, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '5154370135475065648', 'fullHash': '33630994db0dd95b50444adbc11898215ef66dfff402283bec72b2c5a677b036', 'subtype': 1, 'signatureHash': '5bdbd34e65c4e2d97f8ce21fa262f90069f0810ce9f91b5ab9a4426e3f279288', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '13', 'encryptedMessage': {'isText': True, 'data': '731801203d4d9dc5483c1cbf7de5105cb62225e22a3b1f42273297bf80da4b568174632186f5048a2c04698b15f373bc', 'nonce': 'd7ca07977eaa4d2772eadbc19f28cd8ccf1dc74af5ad34e36836a3df80484a63'}}, 'version': 1, 'deadline': 1440, 'confirmations': 67, 'recipient': '16159101027034403504', 'height': 54267, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:11:20,851 - askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}  
+
+2014-08-26 15:11:56,069 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 65, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:11:56,169 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54258, 'ecBlockId': '3017526123620748704', 'amountNQT': '0', 'blockTimestamp': 8256742, 'signature': 'e4e065b7ef6ca24164e1d0c03366ef6d2f1264f9fc9dc461bb2755c39bb4b306f26734179ec012f984f90bf25c2130833c0ad03f661fa3107380a650a4323b21', 'transaction': '6618336364130296627', 'timestamp': 8256725, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '5154370135475065648', 'fullHash': '33630994db0dd95b50444adbc11898215ef66dfff402283bec72b2c5a677b036', 'subtype': 1, 'signatureHash': '5bdbd34e65c4e2d97f8ce21fa262f90069f0810ce9f91b5ab9a4426e3f279288', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '13', 'encryptedMessage': {'isText': True, 'data': '731801203d4d9dc5483c1cbf7de5105cb62225e22a3b1f42273297bf80da4b568174632186f5048a2c04698b15f373bc', 'nonce': 'd7ca07977eaa4d2772eadbc19f28cd8ccf1dc74af5ad34e36836a3df80484a63'}}, 'version': 1, 'deadline': 1440, 'confirmations': 67, 'recipient': '16159101027034403504', 'height': 54267, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:12:30,751 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 65, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:12:30,849 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54258, 'ecBlockId': '3017526123620748704', 'amountNQT': '0', 'blockTimestamp': 8256742, 'signature': 'e4e065b7ef6ca24164e1d0c03366ef6d2f1264f9fc9dc461bb2755c39bb4b306f26734179ec012f984f90bf25c2130833c0ad03f661fa3107380a650a4323b21', 'transaction': '6618336364130296627', 'timestamp': 8256725, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '5154370135475065648', 'fullHash': '33630994db0dd95b50444adbc11898215ef66dfff402283bec72b2c5a677b036', 'subtype': 1, 'signatureHash': '5bdbd34e65c4e2d97f8ce21fa262f90069f0810ce9f91b5ab9a4426e3f279288', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '13', 'encryptedMessage': {'isText': True, 'data': '731801203d4d9dc5483c1cbf7de5105cb62225e22a3b1f42273297bf80da4b568174632186f5048a2c04698b15f373bc', 'nonce': 'd7ca07977eaa4d2772eadbc19f28cd8ccf1dc74af5ad34e36836a3df80484a63'}}, 'version': 1, 'deadline': 1440, 'confirmations': 67, 'recipient': '16159101027034403504', 'height': 54267, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:13:05,662 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 66, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:13:40,660 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 66, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:14:15,748 - XFER ERROR! : bidOrdersLiOther : []priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : []clientsOtherDi : {}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 0clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: []
+self.askOrderThis: {'askOrderId': '0'}
+self.askOrderOther: {'askOrderId': '0'}
+self.askOrderThisID: 000
+self.askOrderOtherID: 000
+self.clientsOtherDi: {}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {}
+self.feeThis: ['NFD']
+self.feeOther: ['NXT']
+self.XfersThis: []
+self.XfersOther: []
+self.tradesThis: {}
+self.tradesOtherBOLi: []
+self.priceOther: 0
+self.priceThis: 0
+self.tokensThis: 0
+self.tokensOther: 0
+self.tokensRedeemableOther: 0
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 0
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 0
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : []askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 0tokensRedeemedOther : 0tradesOther : {}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 3feeThis : ['NFD']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54260, 'ecBlockId': '5986784127748015300', 'amountNQT': '0', 'blockTimestamp': 8256848, 'signature': '904fb5b515d36c709973d474ae0793d699e77afdabaa2356ea094c352ef1270159d98b0ee0ac4171de5c5b738dd4dec2b5acbbdc586e84781211c4dd972ad65f', 'transaction': '1742524087830732678', 'timestamp': 8256842, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '8405402466897068529', 'fullHash': '865fb6f36cb02e180406416cf697febae8d0e8e65cec2f6f364243cfeb3d60c8', 'subtype': 1, 'signatureHash': 'dc915ab6f01dad38a28c8ff7629b07a02049aedf42b6d36be6fda9a9bc328405', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'comment': 'testXFER no Enc', 'version.Message': 1, 'asset': '7334941058708816895', 'version.AssetTransfer': 1, 'quantityQNT': '11', 'message': 'testXFER no Enc', 'messageIsText': True}, 'version': 1, 'deadline': 1440, 'confirmations': 67, 'recipient': '16159101027034403504', 'height': 54269, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:14:18,007 - uc32_askOrderThis:  TX_minConfsReached_CB:   <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288> 
+  {'caller': ['toBlockCH'], 'uc32_ID': '2256483736430273273', 'TXcreator': 'placeAskOrder', 'xGateAcct': 'NXT', 'qqLen': 0, 'TXtype': 'uc32_askOrderThis'}
+
+
+2014-08-26 15:14:50,856 - uc32_askOrderOther: TX_minConfsReached_CB   <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558> 
+  {'caller': ['toBlockCH'], 'uc32_ID': '2256483736430273273', 'TXcreator': 'placeAskOrder', 'xGateAcct': 'NFD', 'qqLen': 0, 'TXtype': 'uc32_askOrderOther'}
+
+
+2014-08-26 15:17:11,054 - UC32 NEW trade OTHER: {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'} 
+
+
+2014-08-26 15:17:11,054 - UC32 trade_Other  tradesOther {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}} 
+
+2014-08-26 15:17:11,054 - NEW clientOther.__dict__  
+BOIDs:['17489859553271768664']
+other:NXT
+accountOther:0
+UC32_ID:2256483736430273273
+redeemableTokens:113
+BOdict:{'17489859553271768664': {'transaction': '17489859553271768664', 'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54329, 'attachment': {'priceNQT': '100000000000', 'asset': '7334941058708816895', 'quantityQNT': '113', 'version.BidOrderPlacement': 1}, 'signatureHash': 'cef12f00caa9d70dc85606242398562c521c6b7d10678a30efd833d8bb982a58', 'version': 1, 'amountNQT': '0', 'signature': '3c0f1bba317c4a26ad5a2a5349cafe112e5594d55453b8c3b3ac55466357560fba20df9dd5842c31445eb067398617caf42397ee60d3597b0683252125ad8441', 'ecBlockId': '13081982538639422984', 'deadline': 1440, 'confirmations': 1, 'timestamp': 8262913, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'height': 54338, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c', 'block': '10490663392622032494', 'fullHash': '58663c349976b8f2be78cd3a2951b3877f545ffe4c15a626432915242910a474', 'subtype': 3, 'blockTimestamp': 8262924}}
+accountThis:7126304194855053556
+sessMan:<nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>
+redeemedTokens:0
+this:NFD
+direction:NFD_to_NXT
+Xfers:{} 
+
+
+2014-08-26 15:17:11,054 - ALL clientsOther:
+ {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+
+2014-08-26 15:17:11,055 - trade_Other. clientThis. tokenTab. 
+BOIDs:['17489859553271768664']
+other:NXT
+accountOther:0
+UC32_ID:2256483736430273273
+redeemableTokens:113
+BOdict:{'17489859553271768664': {'transaction': '17489859553271768664', 'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54329, 'attachment': {'priceNQT': '100000000000', 'asset': '7334941058708816895', 'quantityQNT': '113', 'version.BidOrderPlacement': 1}, 'signatureHash': 'cef12f00caa9d70dc85606242398562c521c6b7d10678a30efd833d8bb982a58', 'version': 1, 'amountNQT': '0', 'signature': '3c0f1bba317c4a26ad5a2a5349cafe112e5594d55453b8c3b3ac55466357560fba20df9dd5842c31445eb067398617caf42397ee60d3597b0683252125ad8441', 'ecBlockId': '13081982538639422984', 'deadline': 1440, 'confirmations': 1, 'timestamp': 8262913, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'height': 54338, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c', 'block': '10490663392622032494', 'fullHash': '58663c349976b8f2be78cd3a2951b3877f545ffe4c15a626432915242910a474', 'subtype': 3, 'blockTimestamp': 8262924}}
+accountThis:7126304194855053556
+sessMan:<nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>
+redeemedTokens:0
+this:NFD
+direction:NFD_to_NXT
+Xfers:{}
+clientsOtherDi 7126304194855053556:<nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0> 
+
+113 = self.clientsOtherDi[BOIssuer].redeemableTokens
+113 = self.tokensRedeemableOther
+113000 = self.clientThis.redeemableTokens
+113000 = self.tokensRedeemableThis
+
+
+
+
+2014-08-26 15:17:11,055 -              clientThis :{'BOIDs': ['2256483736430273273'], 'other': 'NFD', 'accountOther': '0', 'UC32_ID': '2256483736430273273', 'redeemableTokens': 113000, 'BOdict': {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}, 'accountThis': '1738404304940813414', 'sessMan': <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>, 'redeemedTokens': 0, 'this': 'NXT', 'direction': 'NXT_to_NFD', 'Xfers': {}}
+
+
+2014-08-26 15:17:11,055 -              clientOther on this Trade:{'BOIDs': ['17489859553271768664'], 'other': 'NXT', 'accountOther': '0', 'UC32_ID': '2256483736430273273', 'redeemableTokens': 113, 'BOdict': {'17489859553271768664': {'transaction': '17489859553271768664', 'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54329, 'attachment': {'priceNQT': '100000000000', 'asset': '7334941058708816895', 'quantityQNT': '113', 'version.BidOrderPlacement': 1}, 'signatureHash': 'cef12f00caa9d70dc85606242398562c521c6b7d10678a30efd833d8bb982a58', 'version': 1, 'amountNQT': '0', 'signature': '3c0f1bba317c4a26ad5a2a5349cafe112e5594d55453b8c3b3ac55466357560fba20df9dd5842c31445eb067398617caf42397ee60d3597b0683252125ad8441', 'ecBlockId': '13081982538639422984', 'deadline': 1440, 'confirmations': 1, 'timestamp': 8262913, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'height': 54338, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c', 'block': '10490663392622032494', 'fullHash': '58663c349976b8f2be78cd3a2951b3877f545ffe4c15a626432915242910a474', 'subtype': 3, 'blockTimestamp': 8262924}}, 'accountThis': '7126304194855053556', 'sessMan': <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>, 'redeemedTokens': 0, 'this': 'NFD', 'direction': 'NFD_to_NXT', 'Xfers': {}}
+
+
+2014-08-26 15:17:11,055 - sendMessageThis:   This is a MSG from xGate. 
+You can now redeem a maximum of 113000 NFD tokens to receive 113000 NFD coins.
+Please transfer tokens to the xGate account 2865886802744497404.
+Please make sure to correctly include your NFD account number to receive your coins! -  1738404304940813414- 2256483736430273273 
+
+2014-08-26 15:23:35,650 - redeemTokenThis clientThis: red-able: 113000 - red-ed: 0 xferred: 113000 
+
+2014-08-26 15:23:35,654 - accountOther sent by clientThis has  38387866000000
+
+2014-08-26 15:23:35,654 - accountOther has pubKey: 5f7605dfd9ddba1c7843add87f2afc0b9edb1776ad9ae7c9cce18013fa892471 
+
+2014-08-26 15:23:35,654 - redeemThisToAccountOther
+
+2014-08-26 15:23:35,654 - coinsOtherNQT 11300000000000 
+
+2014-08-26 15:23:35,655 - numTokensToRedeem 113000 
+
+2014-08-26 15:23:35,655 - fee 113000000000 
+
+2014-08-26 15:23:35,655 - coinsToSendOtherNQT 11187000000000 
+
+2014-08-26 15:23:35,655 - self.tokensRedeemedThis 113000 
+
+2014-08-26 15:23:35,655 - self.tokensRedeemableThis 0 
+
+2014-08-26 15:23:35,656 - self.clientThis.redeemableTokens 0 
+
+2014-08-26 15:23:35,656 - self.clientThis.redeemedTokens 113000 
+
+2014-08-26 15:23:35,668 - clientThis Redeemed {'secretPhrase': 'dontWriteToLogFile', 'feeNQT': '100000000', 'referencedTransaction': '', 'amountNQT': '11187000000000', 'deadline': '180', 'recipient': 'NFD-5M58-J722-2QWB-3F2AJ', 'publicKey': ''}  
+
+2014-08-26 15:23:35,671 - redeemTokenThis: sendingMoney:   11187000000000 NQt to NFD-5M58-J722-2QWB-3F2AJ uc32_ID 2256483736430273273
+
+2014-08-26 15:23:35,671 - redeemTokenThis: clientThis redeemable: 0: redeemed 113000 numTokensToRedeem: 113000  
+
+2014-08-26 15:23:35,671 - redeemTokenThis   self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+ 
+
+2014-08-26 15:23:35,672 - TX_sendMoney_CB: <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168> {'UC32_side': 'NXT_to_NFD', 'caller': ['toBlockCH'], 'uc32_ID': '2256483736430273273', 'TXcreator': 'sendMoney', 'xGateAcct': 'NFD', 'qqLen': 0, 'TXtype': 'uc32_sendMoneyRedThis'}
+
+2014-08-26 15:26:30,665 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 0, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:27:05,659 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 1, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:27:40,958 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 1, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:28:15,754 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 2, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:28:50,651 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 3, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:29:25,758 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 3, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
+
+2014-08-26 15:30:00,649 - XFER ERROR! : bidOrdersLiOther : ['17489859553271768664']priceThis : 100000thisSide : NXTclientThisDi : {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}uc32Logger : <logging.Logger object at 0x7ff4b4116be0>askOrderThisID : 16919982060957339842priceOther : 100000000000UCtype : NFD_on_NXTXfersOther : []tokensOther : 113tradesOtherBOLi : ['17489859553271768664']clientsOtherDi : {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}tokensRedeemableThis : 0otherSide : NFDtokensRedeemedThis : 113000clientThis : <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>minConfsWanted : 1tokenThis : 6477891914279744979catchSmallVolBidOrder : FalseucID : 2256483736430273273minVol_NFD : 10000sessMan : <nxtPwt.nxtSessionManager.nxtSessionManagerGate object at 0x7ff4c44bde58>TXs : {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '4878789376037202777': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}feeOther : ['NXT']askOrderThis : {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}bidOrderThisID : 2256483736430273273cancelSyntax : ['cancel', 'Cancel', 'CANCEL']tokensThis : 113000bidOrdersDiThis : {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}nxtApi : <nxtPwt.nxtApiSigs.nxtApi object at 0x7ff4c445d048>tokenOther : 7334941058708816895uc32_InfoPak : self.ucID: 2256483736430273273
+self.UCtype: NFD_on_NXT
+self.tokenThis: 6477891914279744979
+self.tokenOther: 7334941058708816895
+self.thisSide: NXT
+self.otherSide: NFD
+self.UC32_iniTimeThis: 23764245
+self.UC32_iniTimeOther: 8262645
+self.bidOrderThisID: 2256483736430273273
+self.bidOrdersDiThis: {'2256483736430273273': {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}}
+self.bidOrderThis: {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}
+self.bidOrdersDiOther: {}
+self.bidOrdersLiOther: ['17489859553271768664']
+self.askOrderThis: {'askOrderId': '16919982060957339842', '16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84288>}
+self.askOrderOther: {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}
+self.askOrderThisID: 16919982060957339842
+self.askOrderOtherID: 3116131415969813841
+self.clientsOtherDi: {'7126304194855053556': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4b4120fd0>}
+self.clientThisDi: {'1738404304940813414': <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>}
+self.clientThisAccId: 1738404304940813414
+self.clientThis: <nxtPwt.nxtModels.xGateCustomer object at 0x7ff4c447beb8>
+self.TXs: {'16919982060957339842': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>, '0': <nxtPwt.nxtModels.SendMoney object at 0x7ff4b4d84168>}
+self.feeThis: ['NFD', '113000000000']
+self.feeOther: ['NXT']
+self.XfersThis: ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']
+self.XfersOther: []
+self.tradesThis: {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}
+self.tradesOtherBOLi: ['17489859553271768664']
+self.priceOther: 100000000000
+self.priceThis: 100000
+self.tokensThis: 113000
+self.tokensOther: 113
+self.tokensRedeemableOther: 113
+self.tokensRedeemableThis: 0
+self.tokensRedeemedThis: 113000
+self.tokensRedeemedOther: 0
+self.minConfsWanted: 1
+self.status: 4
+minVol_NXT : 10accountOther : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d6c168>askOrderThisId : 16919982060957339842clientThisAccId : 1738404304940813414XfersThis : ['2045925bfd23f5c09a0d6d3a5856ccc294772064c34f56493da9d221583e7b88']askOrderOther : {'askOrderId': '3116131415969813841', '3116131415969813841': <nxtPwt.nxtModels.PlaceAskOrder object at 0x7ff4b4d84558>}tokensRedeemableOther : 113tokensRedeemedOther : 0tradesOther : {'17489859553271768664': {'timestamp': 8262924, 'block': '10490663392622032494', 'askOrder': '3116131415969813841', 'asset': '7334941058708816895', 'priceNQT': '100000000000', 'quantityQNT': '113', 'bidOrder': '17489859553271768664'}}UC32_iniTimeOther : 8262645bidOrdersDiOther : {}UC32_iniTimeThis : 23764245tradesThis : {'2256483736430273273': {'timestamp': 23764272, 'block': '15735802837386873322', 'askOrder': '16919982060957339842', 'asset': '6477891914279744979', 'priceNQT': '100000', 'quantityQNT': '113000', 'bidOrder': '2256483736430273273'}}accountThis : <nxtPwt.nxtModels.XGAccount object at 0x7ff4b4d84708>askOrderOtherID : 3116131415969813841bidOrderThis : {'type': 'bid', 'accountRS': 'NXT-5M58-J722-2QWB-3F2AJ', 'asset': '6477891914279744979', 'height': 136441, 'priceNQT': '100000', 'order': '2256483736430273273', 'account': '1738404304940813414', 'quantityQNT': '113000'}status : 4feeThis : ['NFD', '113000000000']
+ Xfer was:{'feeNQT': '100000000', 'sender': '7126304194855053556', 'ecBlockHeight': 54337, 'ecBlockId': '16167819953580494958', 'amountNQT': '0', 'blockTimestamp': 8263582, 'signature': 'a90463dd9c8a4b9ebe196f2e3d7447f1c559e4faa0100d5600849b7d06de610d57cbde80b12869289cc80082a28120a68c3b4d54322b0a110212fcb1f173c9f8', 'transaction': '10417441491487807589', 'timestamp': 8263490, 'senderRS': 'NFD-EC9N-X49V-8YXM-8RFT7', 'type': 2, 'block': '16089725373174181048', 'fullHash': '65d88bb0d72f9290e3166c6bc0e2985fb0834f756e6009c3bea08a269378506b', 'subtype': 1, 'signatureHash': '731610514e5654ec55766e301be60c80c67a655e237d9023bfb22f44691ffa2a', 'recipientRS': 'NFD-L6PJ-SMZ2-5TDB-GA7J2', 'attachment': {'version.AssetTransfer': 1, 'version.EncryptedMessage': 1, 'asset': '7334941058708816895', 'quantityQNT': '113', 'encryptedMessage': {'isText': True, 'data': '09f8e7f255ff714dfc1c9bc862129498cf5aa383d789355825841debbc24833aa05647524ffc5f2fcb0205e1845ecbb352078ab8f7342401abc0662e17aaee9e', 'nonce': '7105dbb8fb1285661c97939b29e679266890e5d72ef03ffdaaa1ba9acad42316'}}, 'version': 1, 'deadline': 60, 'confirmations': 3, 'recipient': '16159101027034403504', 'height': 54347, 'senderPublicKey': '58be6060e13815503922acc3f0a9d4524f71b09b4d4a4a7c247907e4432af44c'} 
+ 
